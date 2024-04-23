@@ -5,7 +5,8 @@
   "main": "app.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.mjs"
+    "dev": "nodemon app.mjs",
+    "lint": "eslint ."
   },
   "author": "Isabella Sulisufi <i.sulisufi@gmail.com>",
   "license": "ISC",
@@ -14,5 +15,9 @@
   },
   "dependencies": {
     "express": "4.19.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.1.1",
+    "eslint": "9.1.1"
   }
 }
