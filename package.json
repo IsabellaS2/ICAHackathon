@@ -4,11 +4,15 @@
   "description": "",
   "main": "app.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.mjs"
   },
   "author": "Isabella Sulisufi <i.sulisufi@gmail.com>",
   "license": "ISC",
   "volta": {
     "node": "20.12.2"
+  },
+  "dependencies": {
+    "express": "4.19.2"
   }
 }
